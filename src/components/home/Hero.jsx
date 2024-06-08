@@ -10,8 +10,8 @@ const Hero = () => {
      <div className='shadow mt-4'>YOU WERE BORN</div>
      <div className='shadow mt-4'>TO BE</div>
     </h1>
-    <button className='button text-[28px] text-white text-center mx-auto'>
-        <Link to ='/about'>Get Started
+    <button className='button text-[20px] text-white text-center mx-auto neue-regular '>
+        <Link to ='/about' className='neue-regular'>Get Started
         </Link>
     </button>
     </div>

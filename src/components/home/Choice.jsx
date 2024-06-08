@@ -25,7 +25,7 @@ const Choice = () => {
         </div>
         {/* card */}
         {/* card */}
-        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[16px] success'>
+        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[16px] success mb-10'>
           <div className='mx-auto p-4'>
            
           <h1 className='text-white font-bold  text-[28px] sm:text-[20px]'>Passion for Success</h1>

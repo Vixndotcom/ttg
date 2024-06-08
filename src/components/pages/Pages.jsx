@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Navbar } from '../Navbar'
 import Home from '../home/Home'
 import About from '../about/About'
+import Footer from '../Footer'
+import styles from '../../style'
+
 
 
 const LazyHome = React.lazy(() => import('../home/Home'))
@@ -24,6 +27,17 @@ const pages = () => {
             
         
       </Routes>
+
+        
+      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart} mt-10 `}>
+        <div className={`${styles.boxWidth}`}>
+          
+    
+           < Footer/> 
+      
+        </div>
+      </div> 
+
     </Router>
     </>
   )

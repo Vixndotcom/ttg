@@ -77,7 +77,7 @@ absolute  right-0   w-full h-screen top-0 sidebar`}>
    <p className=' mt-4 green outlinee'></p> 
 
   <div>
-    <button className='reg text-white neue-regular '>Register Today!</button>
+    <button className='reg text-white neue-regular text-[20px] '>Register Today!</button>
   </div>
  
 </ul>
