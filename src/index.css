@@ -1,0 +1,125 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: neue-bold;
+  src: url(./fonts/NeueMontreal-Bold.otf);
+}
+@font-face {
+  font-family: neue-light;
+  src: url(./fonts/NeueMontreal-Light.otf);
+}
+@font-face {
+  font-family: neue-regular;
+  src: url(./fonts/NeueMontreal-Regular.otf);
+}
+@font-face {
+  font-family: neue-medium;
+  src: url(./fonts/NeueMontreal-Regular.otf);
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.neue-bold{
+  font-family: neue-medium;
+  letter-spacing: 1.6px;
+  
+}
+.neue-light{
+  font-family: neue-regular;
+  color: #3a3a3a;
+  
+}
+
+
+.nav-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-bottom: 24px;
+  
+  }
+  .green{
+    color: #65DA86;
+  }
+
+  .outlinee{
+    border-bottom: .2px solid green;
+    width: 370px;
+  }
+
+  .black{
+    color: #000;
+  }
+
+  .bg-about{
+    background-image: url(assets//hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .bg-hero{
+    background-image: url(assets//lady.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .margin{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button{
+    /* Rectangle 5 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 16px auto;
+height: 64px;
+width: 256px;
+background: linear-gradient(33.33deg, #65DA86 19.83%, #D9D9D9 161.18%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+  }
+  .reg{
+    /* Rectangle 5 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 16px auto;
+height: 64px;
+width: 256px;
+background: #000;
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+border-radius: 16px;
+
+  }
+
+  .track{
+    letter-spacing: 1.6px;
+  }
+  .shadow{
+
+border: 1px solid #D9D9D9;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+
+  .bg-gry{
+    background-color: #f1f1f1 ;
+  }
+
+  .textt{
+    /* position: absolute; */
+    top:240px;
+    margin-top: 240px;
+  }
