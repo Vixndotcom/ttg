@@ -24,7 +24,7 @@ export const Navbar = () => {
 {/* logo */}
 <div className='flex flex-row z-[999]  '>
 <img src={icon} alt="" className='w-[64px] h-[64px]'/>
-<h4 className='text-[36px] green mt-4 neue-bold '>
+<h4 className='text-[32px] green mt-4 neue-bold '>
   TitoGems
 </h4>
 </div>
