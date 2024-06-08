@@ -6,8 +6,8 @@ const Welcome = () => {
   return (
     <section className={`${layout.section} mt-2`}>
       <div className={`${layout.sectionInfo}`}> 
-        <h2 className='text-[40px] text-black capitalize'>
-          POWERFUL, POSITIVE CHANGE FOR GROWTH
+        <h2 className='text-[40px] text-black neue-bold'>
+          Powerful, Positive Growth
         </h2>
         <p className='neue-light w-[420px] p-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quibusdam dolorum, quas ipsa quasi 
         consequuntur facilis laboriosam voluptates alias perferendis.</p>
