@@ -4,11 +4,13 @@ import close from './close.png'
 import heroo from './hero.png'
 import carl from './carl.png'
 import davinci from './davinci.png'
+import mead from './mead.png'
 import success from './success.jpg'
 import determined from './determined.jpg'
 import positive from './positive.jpg'
 
 export{
+    mead,
     positive,
     success,
     determined,
