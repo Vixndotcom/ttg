@@ -13,7 +13,7 @@ const Footer = () => {
     <div className='text-center mb-5'>
         <div className={`${styles.flexCenter} mt-5 flex flex-row  text-center`}>
         <img src={icon} className='w-[64px] h-[64px] bg-white'/>
-        <h1 className='text-[28px] neue-bold  mx-2 mt-2 text-white '>TitoGems Company Ltd</h1>  
+        <h1 className='text-[28px] neue-bold  mt-2 text-white '>TitoGems Company  <br />Limited</h1>  
         <br />
         </div>
 
