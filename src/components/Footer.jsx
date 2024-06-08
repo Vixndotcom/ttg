@@ -13,13 +13,13 @@ const Footer = () => {
     <div className='text-center mb-5'>
         <div className={`${styles.flexCenter} mt-5 flex flex-row  text-center`}>
         <img src={icon} className='w-[64px] h-[64px] bg-white'/>
-        <h1 className='text-[28px] neue-bold  mx-2 mt-2 text-white '>TitoGems</h1>  
+        <h1 className='text-[28px] neue-bold  mx-2 mt-2 text-white '>TitoGems Company Ltd</h1>  
         <br />
         </div>
 
         <div className='text-center'>
             
-            <p className='text-[20px] mt-2 neue-lightt'> Building mindsets for success and purpose fulfilment</p>
+            <p className='text-[20px] mt-2 neue-lightt'> Success is a Must!</p>
         </div>
 
 

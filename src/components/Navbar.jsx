@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   return (
     <>
-    <navbar classname='nav-section xl:w-[40%]  md:w-[80%]  sm:w-[88%] ss:w-[100%]  z-[999] '>
+    <navbar classname='nav-section xl:w-[40%]  md:w-[80%]  sm:w-[88%] ss:w-[100%] right-0 left-0 top-0 w-full z-[999] fixed'>
    <div className='w-full flex py-4 justify-between items-center navbar bg-transparent '>
     
 {/* logo */}
