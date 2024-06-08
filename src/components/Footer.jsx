@@ -10,7 +10,7 @@ const Footer = () => {
 
     
       {/* card */}
-    <div className='text-center mb-2'>
+    <div className='text-center '>
         <div className={`${styles.flexCenter} mt-5 flex flex-col  text-center`}>
         <img src={icon} className='w-[64px] h-[64px] bg-white'/>
         <h1 className='text-[28px] neue-bold   text-white mt-1'>TitoGems Company  <br />Limited</h1>  
@@ -19,7 +19,7 @@ const Footer = () => {
 
         <div className='text-center'>
             
-            <p className='text-[20px] neue-lightt'> Success is a Must!</p>
+            <p className='text-[20px] neue-lightt mb-5'> Success is a Must!</p>
         </div>
 
 
