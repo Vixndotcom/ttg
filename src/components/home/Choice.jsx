@@ -7,7 +7,7 @@ const Choice = () => {
     <section className={`${styles.flexCenter} mt-2 align-items-center justify-center items-center text-center flex`}>
         {/* */}
 
-     <div className='flex md:flex-row md:gap-4 xs:flex-col'>
+     <div className='flex flex-col'>
         {/* card */}
         <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[16px] determination'>
           <div className='mx-auto p-4 text-white'>
