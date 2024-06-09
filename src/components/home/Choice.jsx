@@ -10,9 +10,9 @@ const Choice = () => {
      <div className='flex flex-col'>
         {/* card */}
         <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[12px] determination'>
-          <div className='mx-auto p-4 text-white'>
+          <div className='mx-auto p-4 text-white '>
            
-          <h1 className=' text-[28px] sm:text-[20px] track font-medium'>Determination for Change</h1>
+          <h1 className=' text-[28px] sm:text-[20px]  track font-medium'>Determination for Change</h1>
         </div>
         </div>
         {/* card */}
