@@ -5,6 +5,7 @@ import Home from '../home/Home'
 import About from '../about/About'
 import Footer from '../Footer'
 import styles from '../../style'
+import Loader from '../Loader'
 
 
 
@@ -21,8 +22,8 @@ const pages = () => {
       </div>
 
       <Routes>
-        <Route exact path='/' element={<React.Suspense fallback={<div>Loading...</div>} ><LazyHome /></React.Suspense>} />
-        <Route exact path ='/about' element={<React.Suspense fallback={<div>Loading... </div>}><LazyAbout /></React.Suspense>} />
+        <Route exact path='/' element={<React.Suspense fallback={<div><Loader/></div>} ><LazyHome /></React.Suspense>} />
+        <Route exact path ='/about' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyAbout /></React.Suspense>} />
         
             
         
