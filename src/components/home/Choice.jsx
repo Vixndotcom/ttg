@@ -9,26 +9,26 @@ const Choice = () => {
 
      <div className='flex flex-col'>
         {/* card */}
-        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[16px] determination'>
+        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[12px] determination'>
           <div className='mx-auto p-4 text-white'>
            
-          <h1 className=' text-[28px] sm:text-[20px]  font-bold'>Determination for Change</h1>
+          <h1 className=' text-[28px] sm:text-[20px] track font-medium'>Determination for Change</h1>
         </div>
         </div>
         {/* card */}
         {/* card */}
-        <div className=' justify-content-center w-[320px] h-[200px] mt-4 rounded-[16px] positive'>
+        <div className=' justify-content-center w-[320px] h-[200px] mt-4 rounded-[12px] positive'>
           <div className='mx-auto p-4 '>
            
-          <h1 className='text-white font-bold text-[28px] sm:text-[20px]'>Positive Minded</h1>
+          <h1 className='text-white font-medium text-[28px] track sm:text-[20px]'>Positive Minded</h1>
         </div>
         </div>
         {/* card */}
         {/* card */}
-        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[16px] success mb-10'>
+        <div className=' justify-content-center w-[320px] h-[200px] mt-4  rounded-[12px] success mb-10'>
           <div className='mx-auto p-4'>
            
-          <h1 className='text-white font-bold  text-[28px] sm:text-[20px]'>Passion for Success</h1>
+          <h1 className='text-white font-medium  text-[28px] track sm:text-[20px]'>Passion for Success</h1>
         </div>
         </div>
         {/* card */}
