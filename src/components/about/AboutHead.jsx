@@ -13,7 +13,7 @@ const AboutHead = () => {
        </h2>
 
        <p className='text-white'>
-        Our Motto: Success, a must!
+        Our Motto: Success, is a must!
 
        </p>
       </div>
