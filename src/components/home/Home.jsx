@@ -44,7 +44,7 @@ function Home() {
       
       <div className={`${styles.boxWidth}  `}> 
       
-      <h2 className='text-black mt-10 mb-4 text-[28px] p-2 text-center neue-bold '>
+      <h2 className='text-black mt-10 mb-4 text-[40px] p-2 text-center neue-bold '>
         What Makes Us Different
         </h2> 
       
@@ -76,7 +76,7 @@ function Home() {
         
       </div>
       </div> 
-      
+
       < div className={` ${styles.paddingX} ${styles.flexStart}  mt-10`}>
       
       <div className={`${styles.boxWidth}  `}> 

@@ -13,7 +13,7 @@ const Vision = () => {
     </div>
     <h2 className='text-[28px] neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
   
-  </div></span> To groom youngsters for a purposeful future
+  </div></span> To become a global reference for all that we stand for.
     </h2>
   </div>
   </section>

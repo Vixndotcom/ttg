@@ -4,7 +4,7 @@ import { determined, icon, positive, success } from '../../assets'
 
 const Choice = () => {
   return (
-    <section className={`${styles.flexCenter} mt-2 align-items-center justify-center items-center text-center flex`}>
+    <section className={`${styles.flexCenter} mb-10 mt-2 align-items-center justify-center items-center text-center flex`}>
         {/* */}
 
      <div className='flex flex-col mb-10'>
