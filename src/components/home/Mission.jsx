@@ -11,7 +11,7 @@ const Mission = () => {
         <div>
             <img src={groom} className='w-[72px] h-[72px] p-2'  />
         </div>
-        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
+        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px]  bg-welcome'>
       
       </div></span> To groom youngsters for a purposeful future
         </h2>
@@ -21,7 +21,7 @@ const Mission = () => {
         <div>
             <img src={recognise} className='w-[72px] h-[72px] p-2'  />
         </div>
-        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
+        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px]  bg-welcome'>
       
       </div></span> To recognise institutions that have impacted lives and are still in the business of doing so
         </h2>
@@ -31,7 +31,7 @@ const Mission = () => {
         <div>
             <img src={path} className='w-[72px] h-[72px] p-2'  />
         </div>
-        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
+        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-welcome'>
       
       </div></span> To redirect every human we are opportune to train back on the path of a rejuvenated life
         </h2>
@@ -41,7 +41,7 @@ const Mission = () => {
         <div>
             <img src={devt} className='w-[72px] h-[72px] p-2'  />
         </div>
-        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
+        <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-welcome'>
       
       </div></span> To be a catalyst for growth and development wherever we are called to train.
         </h2>
