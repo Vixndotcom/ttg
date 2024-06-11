@@ -6,6 +6,7 @@ import Welcome from './Welcome'
 import Choice from './Choice'
 import Mission from './Mission'
 import Vision from './Vision'
+import Image from './Image'
 
 
 function Home() {
@@ -98,7 +99,9 @@ function Home() {
       </div> 
 
       
-
+     <div className={`${styles.boxWidth} mt-10 bg-welcome`}>
+      <Image />
+     </div>
 
 
 

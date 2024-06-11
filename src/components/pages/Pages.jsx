@@ -30,7 +30,7 @@ const pages = () => {
       </Routes>
 
         
-      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart} mt-10 `}>
+      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}`}>
           
     

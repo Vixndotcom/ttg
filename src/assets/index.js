@@ -21,8 +21,10 @@ import groom from './groom.png'
 import path from './path.png'
 import recognise from './recognise.png'
 import world from './world.png'
+import bruce from './bruce.png'
 
 export{
+    bruce,
     groom,
     world,
     recognise,
