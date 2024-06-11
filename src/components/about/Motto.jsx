@@ -18,7 +18,7 @@ const Motto = () => {
         </div>
 
 
-<p className='neue-light mt-4'>
+<p className='neue-light mt-10'>
 The company was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
  them uniquely different from others.
 </p>
