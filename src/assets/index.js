@@ -7,11 +7,33 @@ import davinci from './davinci.png'
 import mead from './mead.png'
 import arrow from './arrow.png'
 import black from './arrow-blak.png'
+import mission from './mission.png'
+import vision from './vision.png'
 import success from './success.jpg'
 import determined from './determined.jpg'
 import positive from './positive.jpg'
+import ceo from './ceo.jpg'
+import cert from './cert.jpg'
+import group from './group.jpeg'
+import devt from './devt.png'
+import growth from './growth.png'
+import groom from './groom.png'
+import path from './path.png'
+import recognise from './recognise.png'
+import world from './world.png'
 
 export{
+    groom,
+    world,
+    recognise,
+    devt,
+    growth,
+    path,
+    vision,
+    mission,
+    group,
+    ceo,
+    cert,
     arrow,
     black,
     mead,

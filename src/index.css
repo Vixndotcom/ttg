@@ -167,6 +167,12 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: cover;
   }
 
+
+  .round{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
   .bg-footer{
     background-color: #025e1c;
   }
@@ -208,4 +214,23 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 40px;
   border-radius: 24px;
   margin: auto;
+}
+
+.box
+{
+  /* Rectangle 12 */
+
+/* Rectangle 12 */
+
+
+width: 80vw;
+height: auto;
+
+
+background: #ffff;
+border: 1px solid #f1f1f1;
+box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+
+
 }
