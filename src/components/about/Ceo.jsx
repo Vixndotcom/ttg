@@ -26,9 +26,8 @@ She is also a self motivated coach with a passion to grooming others to being th
           <img src={cert} alt="" className='rounded-[4px]' />
         </div>
 
-<h2 className='mt-10 mx-auto text-center neue-bold text-black font-bold'>In Her Words <br /><span className='text-red-500 font-normal text-[28px] mt-4 borderline'>" Success in your world without you is incomplete"</span>
+
   
-  </h2>
 
         </p>
 
