@@ -11,7 +11,7 @@ const Vision = () => {
     <div>
         <img src={world} className='w-[72px] h-[72px] p-2'  />
     </div>
-    <h2 className='text-[28px] neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
+    <h2 className=' neue-light mt-4'><span> <div className='w-[24px] h-[24px] bg-black'>
   
   </div></span> To become a global reference for all that we stand for.
     </h2>

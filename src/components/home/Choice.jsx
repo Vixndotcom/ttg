@@ -22,7 +22,7 @@ const Choice = () => {
 
       
         {/* card */}
-        <div className=' justify-content-center w-[400px] mt-4 h-[300px] rounded-[12px] bg-white'>
+        <div className=' justify-content-center w-[400px] mt-5 h-[300px] rounded-[12px] bg-white'>
           <div className='mx-auto p-4 text-black neue-bold h-[60px] '>
            
           <h1 className=' text-[20px] track font-medium'>Postive Minded</h1>

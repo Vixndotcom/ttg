@@ -11,18 +11,17 @@ const Motto = () => {
 
 
 
-The company was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
- them uniquely different from others. </p>
+ </p>
 
  <div className='mt-4 '>
           <img src={group} alt="" className='rounded-[4px]' />
         </div>
-<p className='mt-10 '>
-
-We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from within to be the best they can ever be.</p>
 
 
-
+<p className='neue-light mt-4'>
+The company was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
+ them uniquely different from others.
+</p>
 <br />
 
 

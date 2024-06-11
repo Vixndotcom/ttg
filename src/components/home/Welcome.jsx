@@ -9,8 +9,8 @@ const Welcome = () => {
         <h2 className='text-[40px] text-black neue-bold'>
           Powerful, Positive Growth
         </h2>
-        <p className='neue-light w-[420px] p-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quibusdam dolorum, quas ipsa quasi 
-        consequuntur facilis laboriosam voluptates alias perferendis.</p>
+        <p className='neue-light w-[420px] p-2'>
+We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from within to be the best they can ever be.</p>
     </div>
 
     <div className={`${layout.sectionImg}`}>
