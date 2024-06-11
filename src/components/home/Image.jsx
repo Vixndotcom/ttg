@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 
 const Image = () => {
   return (
-    <section className={`${styles.flexCenter} mt-10 flex flex-col`}>
+    <section className={`${styles.flexCenter} mt-10 flex flex-col `}>
+        <div className='mb-10'>
       <div className='w-[75%] h-[75%] mx-auto mt-10 '>
         <img src={bruce} alt="" />
       </div>
@@ -15,7 +16,7 @@ const Image = () => {
         </Link>
         <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
     </button>
-      
+    </div>
     </section>
   )
 }
