@@ -10,8 +10,8 @@ import Vision from './Vision'
 
 function Home() {
   return (
-    <div className='bg-white w-full overflow-hidden'>
-      <div className={`${styles.flexStart}`}>
+    <div className=' w-full overflow-hidden'>
+      <div className={`${styles.flexStart} bg-hero`}>
     <div className={`${styles.boxWidth}`}>
       <Hero />
     </div>

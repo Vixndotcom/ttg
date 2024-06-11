@@ -8,7 +8,7 @@ import Image from './Image'
 
 function About ()  {
   return (
-    <div className='bg-white w-full overflow-hidden'>
+    <div className=' w-full overflow-hidden'>
     <div className={`${styles.flexStart} bg-about`}>
   <div className={`${styles.boxWidth}`}>
     <AboutHead />

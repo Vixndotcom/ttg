@@ -5,7 +5,7 @@ import { arrow } from '../../assets'
 
 const Hero = () => {
   return (
-    <div className=' bg-hero'> 
+    <section className=' '> 
     <h1 className='neue-bold text-[36px] text-white text-center justify-content-center mx-auto p-8 track'>
      <div className=' mt-20 shadow '>BECOME THE LEADER</div>
      <div className='shadow mt-4'>YOU WERE BORN</div>
@@ -16,7 +16,7 @@ const Hero = () => {
         </Link>
         <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
     </button>
-    </div>
+    </section>
   )
 }
 
