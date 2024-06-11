@@ -6,10 +6,10 @@ const Welcome = () => {
   return (
     <section className={`${layout.section} mt-2`}>
       <div className={`${layout.sectionInfo}`}> 
-        <h2 className='text-[40px] text-black neue-bold'>
+        <h2 className='text-[40px] text-white neue-bold'>
           Powerful, Positive Growth
         </h2>
-        <p className='neue-light w-[400px] p-4'>
+        <p className='neue-white w-[400px] p-4'>
 We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from within to be the best they can ever be.</p>
     </div>
 

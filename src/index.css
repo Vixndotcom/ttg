@@ -34,6 +34,11 @@
   color: #3a3a3a;
   
 }
+.neue-white{
+  font-family: neue-regular;
+  color: #fff;
+  
+}
 .neue-lightt{
   font-family: neue-regular;
   color:#fff;
@@ -85,7 +90,11 @@
 
   
 
+.bg-welcome{
+ 
+background: linear-gradient(163.33deg, #02013A 10.22%, #0603A0 88.48%);
 
+}
 
 
   .margin{

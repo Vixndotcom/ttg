@@ -20,7 +20,7 @@ function Home() {
 
 
 
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={` ${styles.paddingX} ${styles.flexStart} bg-welcome  `}>
       
       <div className={`${styles.boxWidth}  `}> 
  
