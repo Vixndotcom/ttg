@@ -7,12 +7,14 @@ import Footer from '../Footer'
 import styles from '../../style'
 import Loader from '../Loader'
 import Services from '../services/Services'
+import Contact from '../contact/Contact'
 
 
 
 const LazyHome = React.lazy(() => import('../home/Home'))
 const LazyAbout = React.lazy(() => import('../about/About'))
 const LazyServices = React.lazy(() => import('../services/Services'))
+const LazyContact = React.lazy(() => import('../contact/Contact'))
 
 
 const pages = () => {
@@ -27,6 +29,7 @@ const pages = () => {
         <Route exact path='/' element={<React.Suspense fallback={<div><Loader/></div>} ><LazyHome /></React.Suspense>} />
         <Route exact path ='/about' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyAbout /></React.Suspense>} />
         <Route exact path ='/services' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyServices /></React.Suspense>} />
+        <Route exact path ='/contact' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyContact /></React.Suspense>} />
         
             
         

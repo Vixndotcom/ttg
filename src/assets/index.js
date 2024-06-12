@@ -32,9 +32,11 @@ import seminars from './seminars.png'
 import training from './training.png'
 import workshop from './workshop.png'
 import table from './table.jpg'
+import contact from './contact.jpg'
 
 
 export{
+    contact,
     table,
     workshop,
     training,
