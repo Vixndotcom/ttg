@@ -8,6 +8,7 @@ import styles from '../../style'
 import Loader from '../Loader'
 import Services from '../services/Services'
 import Contact from '../contact/Contact'
+import Register from '../contact/Register'
 
 
 
@@ -15,6 +16,7 @@ const LazyHome = React.lazy(() => import('../home/Home'))
 const LazyAbout = React.lazy(() => import('../about/About'))
 const LazyServices = React.lazy(() => import('../services/Services'))
 const LazyContact = React.lazy(() => import('../contact/Contact'))
+const LazyRegister = React.lazy(() => import('../contact/Register'))
 
 
 const pages = () => {
@@ -30,6 +32,7 @@ const pages = () => {
         <Route exact path ='/about' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyAbout /></React.Suspense>} />
         <Route exact path ='/services' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyServices /></React.Suspense>} />
         <Route exact path ='/contact' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyContact /></React.Suspense>} />
+        <Route exact path ='/register' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyRegister /></React.Suspense>} />
         
             
         

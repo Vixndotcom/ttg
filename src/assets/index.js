@@ -27,6 +27,8 @@ import awards from './awards.png'
 import conference from './conferences.png'
 import events from './events.png'
 import global from './global.png'
+import cancel from './cancel.png'
+import open from './open.png'
 import outreach from './outreach.png'
 import seminars from './seminars.png'
 import training from './training.png'
@@ -36,6 +38,8 @@ import contact from './contact.jpg'
 
 
 export{
+    open,
+    cancel,
     contact,
     table,
     workshop,

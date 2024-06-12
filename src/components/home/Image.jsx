@@ -12,7 +12,7 @@ const Image = () => {
       </div>
       
       <button className='button text-[20px] text-white text-center mx-auto neue-regular flex flex-row mb-20 '>
-        <Link to ='/about' className='neue-regular text-center flex flex-row  '>Join Today!
+        <Link to ='/register' className='neue-regular text-center flex flex-row  '>Join Today!
         </Link>
         <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
     </button>

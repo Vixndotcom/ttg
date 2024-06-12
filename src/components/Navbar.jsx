@@ -80,7 +80,7 @@ absolute  right-0   w-full h-screen top-0 sidebar`}>
     {/* <button className='reg text-white neue-regular text-[20px] '>Register Today!</button>
     <img src={black} alt="" className=' w-[10%] mx-4 mb-3'/> */}
      <button className='reg text-[20px] text-white text-center mx-auto neue-regular flex flex-row '>
-        <Link to ='/contact' className='neue-regular text-center flex flex-row  '>Register Today!  
+        <Link to ='/register' className='neue-regular text-center flex flex-row  '>Register Today!  
         </Link>
         <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
     </button>
