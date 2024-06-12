@@ -248,6 +248,20 @@ border-radius: 12px;
 
 
 }
+.boxx
+{
+
+width: 80vw;
+height: auto;
+
+
+background: linear-gradient(163.33deg, #02013A 10.22%, #0603A0 );
+border: 1px solid #f1f1f1;
+box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+
+
+}
 body{
   background: transparent;
 }
@@ -259,4 +273,12 @@ body{
   margin-bottom: 24px;
   
 
+}
+
+.bg-service{
+  background-image: url(assets/service.png);
+  background-position: right;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
 }

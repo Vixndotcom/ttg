@@ -22,8 +22,27 @@ import path from './path.png'
 import recognise from './recognise.png'
 import world from './world.png'
 import bruce from './bruce.png'
+import service from './service.png'
+import awards from './awards.png'
+import conference from './conferences.png'
+import events from './events.png'
+import global from './global.png'
+import outreach from './outreach.png'
+import seminars from './seminars.png'
+import training from './training.png'
+import workshop from './workshop.png'
+
 
 export{
+    workshop,
+    training,
+    seminars,
+    outreach,
+    global,
+    events,
+    conference,
+    awards,
+    service,
     bruce,
     groom,
     world,
