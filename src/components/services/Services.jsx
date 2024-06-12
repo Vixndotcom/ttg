@@ -18,7 +18,7 @@ function Services () {
        </div>
       </div>
         
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-10`}>
+      < div className={` ${styles.flexCenter} mx-auto  mt-10`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -26,7 +26,7 @@ function Services () {
     </div>
     </div>
         
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={`${styles.flexCenter}  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -34,7 +34,7 @@ function Services () {
     </div>
     </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={` ${styles.flexCenter}  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -42,7 +42,7 @@ function Services () {
     </div>
     </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={` ${styles.flexCenter}  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -50,7 +50,7 @@ function Services () {
     </div>
     </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={` ${styles.flexCenter}  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -58,7 +58,7 @@ function Services () {
     </div>
     </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart}  mt-5`}>
+      < div className={` ${styles.flexCenter}  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 
@@ -66,7 +66,7 @@ function Services () {
     </div>
     </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart} mb-20  mt-5`}>
+      < div className={`${styles.flexCenter} mb-20  mt-5`}>
       
       <div className={`${styles.boxWidth}  `}>
 

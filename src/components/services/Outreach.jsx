@@ -1,9 +1,10 @@
 import React from 'react'
 import { outreach, training, workshop } from '../../assets'
+import styles from '../../style'
 
 const Outreach = () => {
   return (
-    <section className=''>
+    <section className={`${styles.flexCenter}`}>
            <div className='text-start boxx p-4 '>
         <div>
             <img src={outreach} className='w-[72px] h-[72px]'  />

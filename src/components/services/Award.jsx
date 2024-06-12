@@ -1,9 +1,10 @@
 import React from 'react'
 import { awards, training } from '../../assets'
+import styles from '../../style'
 
 const Awards = () => {
   return (
-    <section className=''>
+    <section className={`${styles.flexCenter}`}>
            <div className='text-start boxx p-4 '>
         <div>
             <img src={awards} className='w-[72px] h-[72px]'  />

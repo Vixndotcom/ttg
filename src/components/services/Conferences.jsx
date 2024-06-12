@@ -1,9 +1,10 @@
 import React from 'react'
 import {  conference,  } from '../../assets'
+import styles from '../../style'
 
 const Conferences = () => {
   return (
-    <section className=''>
+    <section className={`${styles.flexCenter}`}>
            <div className='text-start boxx p-4'>
         <div>
             <img src={conference} className='w-[72px] h-[72px]'  />

@@ -1,9 +1,10 @@
 import React from 'react'
 import { events } from '../../assets'
+import styles from '../../style'
 
 const Global = () => {
   return (
-    <section className=''>
+    <section className={`${styles.flexCenter}`}>
            <div className='text-start boxx p-4 '>
         <div>
             <img src={events} className='w-[72px] h-[72px]'  />

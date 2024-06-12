@@ -1,9 +1,10 @@
 import React from 'react'
 import { seminars, training } from '../../assets'
+import styles from '../../style'
 
 const Seminars = () => {
   return (
-    <section className=''>
+    <section className={`${styles.flexCenter}`}>
            <div className='text-start boxx p-4 '>
         <div>
             <img src={seminars} className='w-[72px] h-[72px]'  />
