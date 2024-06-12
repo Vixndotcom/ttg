@@ -31,9 +31,11 @@ import outreach from './outreach.png'
 import seminars from './seminars.png'
 import training from './training.png'
 import workshop from './workshop.png'
+import table from './table.jpg'
 
 
 export{
+    table,
     workshop,
     training,
     seminars,
