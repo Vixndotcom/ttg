@@ -301,3 +301,10 @@ border: 1px solid #0603A0;
 border-radius: 100px;
 
 }
+
+.forms {
+  width: 640px;
+  height: 1280px;
+  border: none;
+
+}
