@@ -38,16 +38,7 @@ const Register = () => {
     <img src={showForm ? cancel : open } className='w-[8%] mt-6' />
     </button> 
 
-    <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
-         
-          Make Payment
-        </h2>
- 
-    <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
-      <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below </span>
-     
-    </button> 
- 
+   
       
     
    </div>
@@ -67,6 +58,16 @@ frameborder="0" marginheight="0" marginwidth="0" className='forms' >Loading…</
  
    )}
      </div>
+     <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
+         
+         Make Payment
+       </h2>
+
+   <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
+     <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below </span>
+    
+   </button> 
+
      </div>
      </section>
  
