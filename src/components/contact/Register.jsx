@@ -21,7 +21,7 @@ const Register = () => {
      
      <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
          
-        To participate 
+        To Participate 
        </h2>
        
         
@@ -40,7 +40,7 @@ const Register = () => {
 
     <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
          
-         To make Payment
+          Make Payment
         </h2>
  
     <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
