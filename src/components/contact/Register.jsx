@@ -15,7 +15,7 @@ const Register = () => {
  
  
    return (
-     <section id='register ' className={`${styles.paddingX} mt-20 p-4`}>
+     <section id='register ' className={`${styles.paddingX} mt-20 mb-20 p-4`}>
         <div className={`${styles.boxWidth}`}>
       <Announcement />
      
@@ -59,7 +59,8 @@ const Register = () => {
        <div className='mx-auto text-center '>
        {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSHzjLdoicTX1ZOEfGmRkK_zW3s-4-q3cpzGDdg-E9R1egHw/viewform?embedded=true" 
        width="640" height="1280" frameborder="0" marginheight="0" marginwidth="0" className='forms'>Loading Form</iframe>  */}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxqwhw9EGUjoOHxANVyJdUf7i9urHgo9xYI2qX6-E02qTiw/viewform?embedded=true" width="640" height="1280" frameborder="0" marginheight="0" marginwidth="0" className='forms' >Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxqwhw9EGUjoOHxANVyJdUf7i9urHgo9xYI2qX6-E02qTiw/viewform?embedded=true" width="640" height="1280" 
+frameborder="0" marginheight="0" marginwidth="0" className='forms' >Loading…</iframe>
        </div>
      </div>
  
