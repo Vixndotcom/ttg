@@ -19,24 +19,36 @@ const Register = () => {
         <div className={`${styles.boxWidth}`}>
       <Announcement />
      
-     <p className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
+     <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
          
         To participate 
-       </p>
+       </h2>
        
-
-   <div className='sm:px-16 px-4'>
+        
+   <div className=''>
  
    
-     <div className='p-4 '>
+     <div className=' '>
 
 
 
  
-    <button onClick={toggleForm} className='neue-ligh font-normal text-[20px] flex'> <span className='mt-4 mr-4'>Fill out the form below </span>
+    <button onClick={toggleForm} className='neue-ligh font-normal text-[20px] flex'>
+      <button className='mt-4 circle text-white neue-bold mr-4'>01</button> <span className='mt-4 mr-4'>Fill out the form below </span>
     <img src={showForm ? cancel : open } className='w-[8%] mt-6' />
     </button> 
+
+    <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
+         
+         To make Payment
+        </h2>
  
+    <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
+      <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below </span>
+     
+    </button> 
+ 
+      
     
    </div>
    

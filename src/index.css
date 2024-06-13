@@ -290,3 +290,14 @@ body{
   height: 480px;
   background-repeat: no-repeat;
 }
+
+.circle{
+
+width: 64px;
+height: 64px;
+
+background: linear-gradient(158.78deg, #0603A0 5.73%, #07B1FA 118.88%);
+border: 1px solid #0603A0;
+border-radius: 100px;
+
+}
