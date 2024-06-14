@@ -49,7 +49,7 @@ const Register = () => {
  
      <div className={`${styles.flexCenter} justify-content-center mt-10 mb-5  `}>
        <div className='mx-auto text-center p-4  '>
-       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxqwhw9EGUjoOHxANVyJdUf7i9urHgo9xYI2qX6-E02qTiw/viewform?embedded=true" width="640" height="880" frameborder="0" marginheight="0" marginwidth="0" className='forms'>Loading form…</iframe>
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxqwhw9EGUjoOHxANVyJdUf7i9urHgo9xYI2qX6-E02qTiw/viewform?embedded=true" width="640" height="880" frameborder="0" marginheight="0" marginwidth="0" className='forms'>Loading…</iframe>
        </div>
      </div>
  
