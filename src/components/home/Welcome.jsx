@@ -1,6 +1,7 @@
 import React from 'react'
 import styles, { layout } from '../../style'
 import { carl, davinci } from '../../assets'
+import { Link } from 'react-router-dom'
 
 const Welcome = () => {
   return (
@@ -10,7 +11,14 @@ const Welcome = () => {
           Powerful, Positive Growth
         </h2>
         <p className='neue-white w-[400px] p-4'>
-We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from within to be the best they can ever be.</p>
+We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from
+ within to be the best they can ever be.</p>
+ 
+<p className='neue-white w-[400px] p-4'>
+
+  Knowledge is power!
+</p>
+  
     </div>
 
     <div className={`${layout.sectionImg}`}>
@@ -19,6 +27,8 @@ We are out to ensure that everyone who takes a seat under our auspicious tutelag
           <img src={carl} alt="" className='w-[50%]'/>
         </div>
         </div>
+
+      
         </section>
   )
 }

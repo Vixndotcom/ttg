@@ -9,6 +9,7 @@ import Loader from '../Loader'
 import Services from '../services/Services'
 import Contact from '../contact/Contact'
 import Register from '../contact/Register'
+import Top from '../home/Top'
 
 
 
@@ -37,9 +38,12 @@ const pages = () => {
             
         
       </Routes>
+      <div className={`${styles.boxWidth} `}>
+        <Top />
+      </div>
 
         
-      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart}  `}>
+      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart} mr-8 `}>
         <div className={`${styles.boxWidth}`}>
           
     

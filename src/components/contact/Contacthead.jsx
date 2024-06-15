@@ -8,9 +8,11 @@ const Contacthead = () => {
     <div className='w-[24px] h-[24px] bg-welcome text-start'>
      
     </div>
+
     <h2 className='text-black text-[40px] neue-bold mb-10 text-white text-start'>
      Contact Us Today!
       </h2>
+     
       <h2 className='text-[28px] neue-bold text-white'>
         Phone Number
     </h2>

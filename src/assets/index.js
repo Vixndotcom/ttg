@@ -33,6 +33,7 @@ import outreach from './outreach.png'
 import seminars from './seminars.png'
 import training from './training.png'
 import workshop from './workshop.png'
+import top from './TOP-BUTTON.png'
 
 import table from './table.jpg'
 import poster from './poster.png'
@@ -40,6 +41,7 @@ import contact from './contact.jpg'
 
 
 export{
+    top,
     poster,
     open,
     cancel,
