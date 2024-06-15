@@ -328,7 +328,7 @@ border-radius: 100px;
 
 .scroll-to-top{
   position: fixed;
-  right: 20px;
+  right: 10px;
    display: flex;
    bottom: 20px;
   cursor: pointer;
