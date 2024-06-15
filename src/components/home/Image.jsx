@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../style'
 import { arrow, bruce } from '../../assets'
 import { Link } from 'react-router-dom'
+import Works from './Works'
 
 const Image = () => {
   return (
@@ -10,12 +11,8 @@ const Image = () => {
       <div className='w-[75%] h-[75%] mx-auto mt-10 '>
         <img src={bruce} alt="" />
       </div>
-      
-      <button className='button text-[20px] text-white text-center mx-auto neue-regular flex flex-row mb-20 '>
-        <Link to ='/register' className='neue-regular text-center flex flex-row  '>Join Today!
-        </Link>
-        <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
-    </button>
+    
+    
     </div>
     </section>
   )

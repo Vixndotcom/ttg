@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './Hero'
 import styles from '../../style'
-import { heroo, mission, vision } from '../../assets'
+import { arrow, heroo, mission, vision } from '../../assets'
 import Welcome from './Welcome'
 import Choice from './Choice'
 import Mission from './Mission'
 import Vision from './Vision'
 import Image from './Image'
+import Works from './Works'
+import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -63,7 +65,7 @@ function Home() {
       <div className={`${styles.boxWidth}  `}> 
        <div className='flex flex-row'>
    
-<h2 className='text-[40px] text-black neue-bold'>
+<h2 className='text-[40px] text-black neue-bold mx-2'>
         Our Mission
         </h2>
 
@@ -82,12 +84,12 @@ function Home() {
       
       <div className={`${styles.boxWidth}  `}> 
        <div className='flex flex-row'>
-   
-<h2 className='text-[40px] text-black neue-bold'>
+       <img src={vision} alt="" className='w-[64px] h-[64px] mb-2'/>
+<h2 className='text-[40px] text-black neue-bold mx-2'>
         Our Vision
         </h2>
 
-        <img src={vision} alt="" className='w-[64px] h-[64px] mb-2'/>
+        
         </div>
       < Vision/>
    
@@ -103,6 +105,31 @@ function Home() {
       <Image />
      </div>
 
+     
+< div className={`  ${styles.flexCenter} bg-white `}>
+      
+      <div className={`${styles.boxWidth}  `}> 
+      
+      <h2 className='text-black mt-10 mb-4 text-[40px] p-2 text-center neue-bold '>
+        Frequently asked questions
+        </h2> 
+      
+       < Works /> 
+      
+      
+       
+       
+        
+      </div>
+      </div>  
+       
+       <div className={`${styles.boxWidth} mb-20`}>
+       <button className='reg text-[20px] text-white text-center mx-auto neue-regular flex flex-row  '>
+        <Link to ='/register' className='neue-regular text-center flex flex-row  '>Register Today!
+        </Link>
+        <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
+    </button>
+       </div>
 
 
 

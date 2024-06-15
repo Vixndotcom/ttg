@@ -314,3 +314,8 @@ border-radius: 100px;
     height: 780px;
   }
 }
+
+.border-step{
+  border-bottom: 1px solid #D9D9D9;
+  width: 400px;
+}
