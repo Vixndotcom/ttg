@@ -38,7 +38,7 @@ const pages = () => {
             
         
       </Routes>
-      <div className={`${styles.boxWidth} `}>
+      <div className={`${styles.boxWidth} mr-2 `}>
         <Top />
       </div>
 
