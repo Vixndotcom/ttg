@@ -48,7 +48,7 @@ const toggleItemmm = () => {
 {showItem && (
 <div>
     <p className='max-[470px] mt-5 mx-auto text-start p-4 neue-light'>
-       We are a motivational brand, we host coaching events to build and foster leadership skills.
+       We are a mentorship company, We host coaching events to build and foster leadership skills.
     </p>
 </div>
     )}
