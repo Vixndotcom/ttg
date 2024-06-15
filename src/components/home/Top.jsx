@@ -8,7 +8,7 @@ const Top = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      setIsVisible(scrollTop > 500);
+      setIsVisible(scrollTop > 700);
     };
     window.addEventListener('scroll', handleScroll);
 

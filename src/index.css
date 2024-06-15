@@ -341,6 +341,6 @@ border-radius: 100px;
 
  @media(min-width:620px) {
   .scroll-to-top{
-     right: 40px;
+     right: 20px;
   }
 } 
