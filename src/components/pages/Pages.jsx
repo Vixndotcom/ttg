@@ -43,7 +43,7 @@ const pages = () => {
       </div>
 
         
-      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart} mr-8 `}>
+      <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}`}>
           
     

@@ -33,8 +33,8 @@ function Home() {
    
     {/* button: */}
        <button className='p-4 get-started cursor-pointer mb-10 flex'>
-        <Link to ='/about'><div className='flex flex-row'><h2 className='neue-bold text-[20px] text-white mt-3'>Learn More</h2>
-        <img src={arrow} className='w-[48px] h-[48px] mx-4 ' />
+        <Link to ='/about'><div className='flex flex-row'><h2 className='neue-bold text-[20px] text-white mt-1'>Learn More</h2>
+        <img src={arrow} className='w-[36px] h-[36px] mx-4 ' />
         </div> </Link>
       </button>
        
