@@ -27,7 +27,7 @@ The company was birthed out of the need to groom young minds and adults alike in
 <img src={table} alt="" className='rounded-[4px]' />
 </div>
 
-<h2 className='mt-10 mb-10 mx-auto text-[20px]  text-center neue-bold text-black font-bold'>OUR MOTTO: Success, is a must!</h2>
+<h2 className='mt-10 mb-10 mx-auto text-[20px]  text-center neue-bold text-black font-bold'>OUR MOTTO: Success es imprescindible!</h2>
 
 
         

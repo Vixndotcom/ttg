@@ -19,7 +19,7 @@ const Footer = () => {
 
         <div className='text-center'>
             
-            <p className='text-[20px] neue-lightt mb-5'> Success, is a Must!</p>
+            <p className='text-[20px] neue-lightt mb-5'> Success es imprescindible!</p>
         </div>
 
 
