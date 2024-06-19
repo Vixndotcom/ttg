@@ -12,7 +12,7 @@ return (
   <h2 className='neue-bold track green font-medium mt-10 text-[28px]'>
     TitoGems
 </h2>
-<p className='text-center text-black text-[20px] mt-4'>Please wait...</p>
+<p className='text-center text-black neue-light text-[20px] mt-4'>Please wait...</p>
 </div>
 
 );

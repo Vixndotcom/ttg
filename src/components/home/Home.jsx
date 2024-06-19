@@ -32,7 +32,7 @@ function Home() {
       < Welcome />
    
     {/* button: */}
-       <button className='p-4 get-started cursor-pointer mb-10 flex'>
+       <button className='p-4 get-started cursor-pointer mb-10 flex learn'>
         <Link to ='/about'><div className='flex flex-row'><h2 className='neue-bold text-[20px] text-white mt-1'>Learn More</h2>
         <img src={arrow} className='w-[32px] h-[32px] mx-4 ' />
         </div> </Link>
