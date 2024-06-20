@@ -10,11 +10,11 @@ const Welcome = () => {
         <h2 className='text-[40px] text-white neue-bold'>
         Guidance for Every Journey, Support for Every Step
         </h2>
-        <p className='neue-white w-[400px] p-4'>
+        <p className='neue-white w-[400px] py-4'>
 We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from
  within to be the best they can ever be.</p>
  
-<p className='neue-white w-[400px] p-4'>
+<p className='neue-white w-[400px] py-4'>
 
   Knowledge is power!
 </p>
