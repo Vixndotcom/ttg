@@ -10,8 +10,8 @@ const Welcome = () => {
         <h2 className='text-[40px] text-white neue-bold'>
         Guidance for Every Journey, Support for Every Step
         </h2>
-        <p className='neue-white w-[400px] py-4'>
-We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up <br />and juiced up from
+        <p className='neue-white w-[370px] py-4'>
+We are out to ensure that everyone who takes a seat under our auspicious tutelage is fired up and juiced up from
  within to be the best they can ever be.</p>
  
 <p className='neue-white w-[400px] py-4'>
