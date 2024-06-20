@@ -74,7 +74,7 @@ body{
 
   .outlinee{
     border-bottom: .2px solid green;
-    width: 98vw;
+    width: 96vw;
   }
 
   .black{
@@ -334,7 +334,7 @@ border-radius: 100px;
 
 .scroll-to-top{
   position: fixed;
-  right: 10px;
+  right: 6px;
    display: flex;
    bottom: 20px;
   cursor: pointer;
