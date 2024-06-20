@@ -18,8 +18,8 @@ export const Navbar = () => {
 
   return (
     <>
-    <navbar classname='nav-section xl:w-[40%]  md:w-[80%]  sm:w-[88%] ss:w-[100%]  top-0 w-full z-[999] '>
-   <div className='w-full flex py-4 justify-between items-center navbar bg-transparent '>
+    <navbar classname='nav-section xl:w-[40%]  md:w-[80%]  sm:w-[88%] ss:w-[100%]  top-0 w-full z-[998] '>
+<div className='w-full flex py-4 justify-between items-center navbar  '>
     
 {/* logo */}
 <div className='flex flex-row z-[999]  '>
@@ -63,7 +63,7 @@ absolute  right-0   w-full h-screen top-0 sidebar`}>
 
 <ul className='  list-none justify-end items-center flex-1 mt-20 '>
  {nav.map((list, index) => (
-  <li key={list.path} className={`font-poppins font-normal cursor-pointer p-8 mt-4  text-[32px]
+  <li key={list.path} className={`font-poppins font-normal cursor-pointer p-8 mt-16  text-[32px]
   ${index === nav.length - 1 ? 'mr-0' : 'mb-4'}`} 
   onClick={handleSelection}>
 

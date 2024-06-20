@@ -24,9 +24,12 @@ const pages = () => {
   return (
     <>
     <Router>
-      <div>
+     
+    <div className={` ${styles.flexCenter} w-full overflow-hidden `}>
+      <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
+    </div>
 
       <Routes>
         <Route exact path='/' element={<React.Suspense fallback={<div><Loader/></div>} ><LazyHome /></React.Suspense>} />
