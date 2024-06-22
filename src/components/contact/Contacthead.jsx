@@ -16,9 +16,15 @@ const Contacthead = () => {
       <h2 className='text-[28px] neue-bold text-white'>
         Phone Number
     </h2>
-    <button className='neue-ligh mt-5 text-white bg-white w-[320px] h-[64px] flex flex-row'>
-    <p className='neue-bold text-center mx-6 mt-4 text-[20px]'>+234-0802848717 </p>
-    <img src={black} alt="" className=' w-[10%] mx-2 mt-2 mb-3'/>
+    <button className='neue-ligh mt-5 text-white bg-white w-[360px] h-[64px] flex flex-row'>
+    <p className='neue-bold w-[290px] text-center mx-3 mt-4 text-[20px]'>+234-08028484717 </p>
+    <span className='w-[70px]'>
+    <a href="tel:+2348028484717">
+
+    <img src={black} alt="" className=' w-[60%]  mt-1'/>
+
+    </a>
+    </span>
     </button>
      
      </div>
