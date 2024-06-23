@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <section className={`${layout.section} mt-2`}>
       <div className={`${layout.sectionInfo}`}> 
-        <h2 className='text-[40px] text-white neue-bold'>
+        <h2 className='text-[40px] text-white neue-bold shadoww'>
         Guidance for Every Journey, Support for Every Step
         </h2>
         <p className='neue-white w-[370px] py-4'>

@@ -9,7 +9,7 @@ const Choice = () => {
 
      <div className='flex flex-col mb-10'>
         {/* card */}
-        <div className=' justify-content-center w-[400px] mt-4 h-[320px] rounded-[12px] bg-white'>
+        <div className=' justify-content-center w-[390px] mt-4 h-[320px] rounded-[12px] bg-white'>
           <div className='mx-auto p-4 text-black neue-bold h-[60px] '>
            
           <h1 className=' text-[20px] track font-medium'>Determination for Change</h1>
@@ -22,12 +22,12 @@ const Choice = () => {
 
       
         {/* card */}
-        <div className=' justify-content-center w-[400px] mt-5 h-[300px] rounded-[12px] bg-white'>
+        <div className=' justify-content-center w-[390px] mt-5  rounded-[12px] bg-white'>
           <div className='mx-auto p-4 text-black neue-bold h-[60px] '>
            
           <h1 className=' text-[20px] track font-medium'>Postive Minded</h1>
         </div>
-        <div className='h-[320px] object-contain'>
+        <div className=' object-contain'>
           <img src={positive} alt="" className='round'/>
         </div>
         </div>
@@ -35,7 +35,7 @@ const Choice = () => {
 
       
         {/* card */}
-        <div className=' justify-content-center w-[400px] mt-4 h-[320px] rounded-[12px] bg-white'>
+        <div className=' justify-content-center w-[390px] mt-5 h-[320px] rounded-[12px] bg-white'>
           <div className='mx-auto p-4 text-black neue-bold h-[60px] '>
            
           <h1 className=' text-[20px] track font-medium'>Passion for success</h1>

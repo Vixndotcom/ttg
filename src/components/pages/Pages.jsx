@@ -25,7 +25,7 @@ const pages = () => {
     <>
     <Router>
      
-    <div className={` ${styles.flexCenter} w-full overflow-hidden `}>
+    <div className={` ${styles.flexCenter} w-full overflow-hidden  `}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
