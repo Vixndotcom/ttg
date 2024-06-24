@@ -80,7 +80,7 @@ body{
   }
 
   .bg-about{
-    background-image: url(assets//company.png);
+    background-image: url(assets//company.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 480px;
@@ -95,7 +95,7 @@ body{
    
   }
   .bg-hero{
-    background-image: url(assets//lady.png);
+    background-image: url(assets//lady.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     
@@ -137,6 +137,20 @@ background: linear-gradient(33.33deg, #025e1c 19.83%, #0de405 161.18%);
 border-radius: 10px;
 
   }
+  .ticket-button{
+    /* Rectangle 5 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 16px auto;
+margin-top: 30%;
+height: 64px;
+width: 256px;
+background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,rgb(202, 182, 102) 51%,#dc8 100%);
+border-radius: 10px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+  }
+
   .reg{
     /* Rectangle 5 */
     display: flex;
@@ -293,7 +307,7 @@ border-radius: 12px;
 
 
 .bg-service{
-  background-image: url(assets/service.png);
+  background-image: url(assets/service.jpg);
   background-position: right;
   background-size: cover;
   height: 480px;
@@ -366,4 +380,16 @@ border-radius: 100px;
   margin-bottom: 24px;
   
 
+}
+
+.bg-tickets{
+  background-image: url(assets/IMG_8661.GIF);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-top{
+  background-image: url(assets/IMG_8662.GIF);
+  background-position: center;
+  background-size: cover;
 }

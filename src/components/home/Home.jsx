@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import styles from '../../style'
-import { arrow, heroo, mission, vision } from '../../assets'
+import { arrow,  mission, vision } from '../../assets'
 import Welcome from './Welcome'
 import Choice from './Choice'
 import Mission from './Mission'
@@ -9,6 +9,8 @@ import Vision from './Vision'
 import Image from './Image'
 import Works from './Works'
 import { Link } from 'react-router-dom'
+
+import TopTickets from './TopTickets'
 
 
 function Home() {
@@ -21,8 +23,9 @@ function Home() {
     </div>
       </div>
 
-
-
+     <div className='bg-top w-[100%] h-[200px] '>
+      <TopTickets/>
+     </div>
 
       < div className={` ${styles.paddingX} ${styles.flexStart} bg-welcome  `}>
       

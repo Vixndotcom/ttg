@@ -10,6 +10,7 @@ import Services from '../services/Services'
 import Contact from '../contact/Contact'
 import Register from '../contact/Register'
 import Top from '../home/Top'
+import Tickets from '../home/Tickets'
 
 
 
@@ -31,6 +32,8 @@ const pages = () => {
       </div>
     </div>
 
+ 
+
       <Routes>
         <Route exact path='/' element={<React.Suspense fallback={<div><Loader/></div>} ><LazyHome /></React.Suspense>} />
         <Route exact path ='/about' element={<React.Suspense fallback={<div><Loader/> </div>}><LazyAbout /></React.Suspense>} />
@@ -45,11 +48,13 @@ const pages = () => {
         <Top />
       </div>
 
-        
+      <div className='bg-tickets w-[100%] h-[200px]'>
+  <Tickets/>
+</div>
       <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart}  `}>
         <div className={`${styles.boxWidth}`}>
           
-    
+         
            < Footer/> 
       
         </div>

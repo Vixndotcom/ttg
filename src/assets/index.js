@@ -1,7 +1,7 @@
 import icon from './TG-ICON.png'
 import menu from './menu.png'
 import close from './close.png'
-import heroo from './hero.png'
+
 import carl from './carl.png'
 import davinci from './davinci.png'
 import mead from './mead.png'
@@ -22,7 +22,7 @@ import path from './path.png'
 import recognise from './recognise.png'
 import world from './world.png'
 import bruce from './bruce.png'
-import service from './service.png'
+
 import awards from './awards.png'
 import conference from './conferences.png'
 import events from './events.png'
@@ -55,7 +55,7 @@ export{
     events,
     conference,
     awards,
-    service,
+   
     bruce,
     groom,
     world,
@@ -74,7 +74,7 @@ export{
     positive,
     success,
     determined,
-    heroo,
+    
     carl,
     davinci,
     menu,
