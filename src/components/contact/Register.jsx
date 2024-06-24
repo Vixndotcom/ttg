@@ -63,7 +63,7 @@ const Register = () => {
        </h2>
 
    <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
-     <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below </span>
+     <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below to purchase </span>
     
    </button> 
 
