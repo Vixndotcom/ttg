@@ -23,7 +23,7 @@ export const Navbar = () => {
     
 {/* logo */}
 <div className='flex flex-row logo   '>
-<img src={icon} alt="" className='w-[64px] h-[64px]'/>
+<img src={icon} alt="" className='w-[64px] h-[64px] '/>
 <h4 className='text-[28px] green mt-3 neue-bold font-bold '>
   TitoGems
 </h4>
@@ -74,7 +74,7 @@ onClick={() => setNavList((prev) => !prev)}/>
   </li>
  ))}
  
-   <p className='  outlinee text-[28px] neue-bold green mt-10 p-2'>Titogems</p> 
+   <p className='  outlinee text-[28px] neue-bold font-bold green mt-10 p-2'>TitoGems</p> 
 
   <div className='flex flex-row text-center'>
  
