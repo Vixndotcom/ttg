@@ -48,7 +48,7 @@ const pages = () => {
         <Top />
       </div>
 
-      <div className='bg-tickets w-[100%] h-[200px]'>
+      <div className='bg-tickets w-[100%] h-[200px] mb-2'>
   <Tickets/>
 </div>
       <div className={`bg-footer  ${styles.paddingX} ${styles.flexStart}  `}>
