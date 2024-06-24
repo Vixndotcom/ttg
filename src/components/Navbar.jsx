@@ -74,7 +74,7 @@ onClick={() => setNavList((prev) => !prev)}/>
   </li>
  ))}
  
-   <p className='  outlinee text-[28px] neue-bold green mt-16'>Titogems <span className='neue-regular text-white text-[16px]'>company ltd.</span></p> 
+   <p className='  outlinee text-[28px] neue-bold green mt-5'>Titogems <span className='neue-regular mb-1 text-white text-[16px]'>company ltd.</span></p> 
 
   <div className='flex flex-row text-center'>
  
