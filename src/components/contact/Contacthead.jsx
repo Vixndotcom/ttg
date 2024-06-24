@@ -9,7 +9,7 @@ const Contacthead = () => {
   
 
   return (
-    <div className={`flex-1 ${styles.flexStart} flex-col text-center p-8 textt`}>
+    <div className={`flex-1 ${styles.flexStart} flex-col text-center p-6 textt`}>
     <div className='w-[24px] h-[24px] bg-welcome text-start'>
      
     </div>
