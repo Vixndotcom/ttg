@@ -69,8 +69,10 @@ body{
   }
 
   .outlinee{
-    border-bottom: .2px solid green;
+    border-bottom: .2px solid #fff;
+    padding: 20px;
     width: 96vw;
+    
   }
 
   .black{

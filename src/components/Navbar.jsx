@@ -22,7 +22,7 @@ export const Navbar = () => {
         <div className='w-full flex py-4 justify-between items-center navbar  bg-transparent '>
     
 {/* logo */}
-<div className='flex flex-row logo  z-[99] '>
+<div className='flex flex-row logo   '>
 <img src={icon} alt="" className='w-[64px] h-[64px]'/>
 <h4 className='text-[28px] green mt-3 neue-bold font-bold '>
   TitoGems
@@ -74,7 +74,7 @@ onClick={() => setNavList((prev) => !prev)}/>
   </li>
  ))}
  
-   <p className=' mt-4 green outlinee'></p> 
+   <p className='  outlinee text-[28px] neue-bold green mt-16'>Titogems <span className='neue-regular text-white text-[16px]'>company ltd.</span></p> 
 
   <div className='flex flex-row text-center'>
  
@@ -83,6 +83,8 @@ onClick={() => setNavList((prev) => !prev)}/>
 </ul>
 
 </div>
+
+
 </div>
 
 
