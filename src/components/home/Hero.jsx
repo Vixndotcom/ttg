@@ -12,9 +12,10 @@ const Hero = () => {
      <div className='shadow mt-4'>FUTURE</div>
     </h1>
     <button className='button text-[20px] text-white text-center mx-auto neue-regular flex flex-row '>
-        <Link to ='/register' className='neue-regular text-center flex flex-row cursor-pointer '>Get Started  
+        <Link to ='/register' className='neue-regular mx-12 text-center flex flex-row cursor-pointer '>Get Started  
+        <img src={arrow} alt="" className=' w-[16%] mx-4 mb-3'/>
         </Link>
-        <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
+       
     </button>
     </section>
   )

@@ -134,9 +134,10 @@ function Home() {
        
        <div className={`${styles.boxWidth} mb-20`}>
        <button className='reg text-[20px] text-white text-center mx-auto neue-regular flex flex-row  '>
-        <Link to ='/register' className='neue-regular text-center flex flex-row cursor-pointer '>Register Today!
+        <Link to ='/register' className='neue-regular text-center mx-8 flex flex-row cursor-pointer '>Register Today!
+        <img src={arrow} alt="" className=' w-[12%] mx-4 mb-3'/>
         </Link>
-        <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
+        
     </button>
        </div>
 
