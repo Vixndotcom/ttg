@@ -37,7 +37,7 @@ function Home() {
    
     {/* button: */}
        <button className='p-4 get-started cursor-pointer mb-10 flex learn'>
-        <Link to ='/about'><div className='flex flex-row'><h2 className='neue-bold text-[20px] text-white mt-1'>Learn More</h2>
+        <Link to ='/about'><div className='flex flex-row'><h2 className='neue-bold cursor-pointer  text-[20px] text-white mt-1'>Learn More</h2>
         <img src={arrow} className='w-[32px] h-[32px] mx-4 ' />
         </div> </Link>
       </button>
@@ -134,7 +134,7 @@ function Home() {
        
        <div className={`${styles.boxWidth} mb-20`}>
        <button className='reg text-[20px] text-white text-center mx-auto neue-regular flex flex-row  '>
-        <Link to ='/register' className='neue-regular text-center flex flex-row  '>Register Today!
+        <Link to ='/register' className='neue-regular text-center flex flex-row cursor-pointer '>Register Today!
         </Link>
         <img src={arrow} alt="" className=' w-[10%] mx-4 mb-3'/>
     </button>
