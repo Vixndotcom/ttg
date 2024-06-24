@@ -26,7 +26,7 @@ import service from './service.png'
 import awards from './awards.png'
 import conference from './conferences.png'
 import events from './events.png'
-import global from './global.png'
+
 import cancel from './cancel.png'
 import open from './open.png'
 import outreach from './outreach.png'
@@ -51,7 +51,7 @@ export{
     training,
     seminars,
     outreach,
-    global,
+
     events,
     conference,
     awards,

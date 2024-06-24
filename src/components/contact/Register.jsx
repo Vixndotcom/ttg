@@ -35,7 +35,7 @@ const Register = () => {
  
     <button onClick={toggleForm} className='neue-ligh font-normal text-[20px] flex'>
       <button className='mt-4 circle text-white neue-bold mr-4'>01</button>
-       <p className='mt-4 mr-4'>Fill out the form below </p> 
+       <p className='mt-4 mr-4'>Please fill out the form below</p> 
     <img src={showForm ? cancel : open } className='w-[8%] mt-6' />
     </button> 
 
@@ -59,7 +59,7 @@ const Register = () => {
      </div>
      <h2 className=' neue-bold text-[24px]  mt-10 md:w-[1020px] sm:w-[470px]'>
          
-         Make Payment
+         Buy Tickets
        </h2>
 
    <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
