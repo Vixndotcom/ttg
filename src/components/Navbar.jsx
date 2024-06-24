@@ -61,7 +61,7 @@ onClick={() => setNavList((prev) => !prev)}/>
   right-0   w-full h-screen top-0 sidebar absolute`}>
 
 <div className='mt-24'>
-<ul className='  list-none justify-end items-center flex-1 mt-16  '>
+<ul className='  list-none justify-end items-center flex-1 mt-24  '>
  {nav.map((list, index) => (
   <li key={list.path} className={` font-medium neue-bold cursor-pointer border p-6 mt-2 bg-white  text-[32px]
   ${index === nav.length - 1 ? 'mr-0' : 'mb-4'}`} 
