@@ -12,7 +12,7 @@ const Announcement = () => {
         <div className=''>
             <h2 className='neue-bold text-[20px]'>
                 <span className='neue-bold text-[40px]'>A </span> mind blowing  session for teenagers and undergraduates coming up on the <br />
-                 <span className='mt-2 neue-bold text-[28px] text-red-700'> 17th of August 2024.
+                 <span className='mt-2 neue-bold text-[28px] text-red-700'> 24th of August 2024.
 
                  </span>
             </h2>
