@@ -15,7 +15,7 @@ const Register = () => {
  
  
    return (
-     <section id='register ' className={`${styles.paddingX} mt-20 mb-20 p-4`}>
+     <section id='register ' className={`${styles.paddingX} ${styles.flexCenter} mt-20 mb-20 p-4`}>
         <div className={`${styles.boxWidth}`}>
       <Announcement />
      
@@ -36,7 +36,7 @@ const Register = () => {
     <button onClick={toggleForm} className='neue-ligh font-normal text-[20px] flex'>
       <button className='mt-4 circle text-white neue-bold mr-4'>01</button>
        <p className='mt-4 mr-4'>Please fill out the form below</p> 
-    <img src={showForm ? cancel : open } className='w-[8%] mt-6' />
+    <img src={showForm ? cancel : open } className='w-[8%] mt-6 mx-4' />
     </button> 
 
    
@@ -64,11 +64,13 @@ const Register = () => {
          Buy Tickets
        </h2>
 
-   <button  className='neue-ligh mt-5 font-normal text-[20px] flex'>
-     <button className='mt-4 circle text-white neue-bold mr-4'>02</button> <span className='mt-4 mr-4'>Click on the link below to purchase </span>
-    
+   <button  className='neue-ligh mt-5 font-normal text-[20px] flex '>
+     <button className='mt-4 circle text-white neue-bold mr-4 '>02</button> <span className='mt-4 mr-4'>Click on the button below to purchase </span>
+     
    </button> 
-
+   <div className='mt-4 flex text-center mx-auto ticket-note '>
+     <a href="https://shows.ng/event/Mentorship-session-for-teenagers-and-undergraduates-234" target="_blank" rel="noopener noreferrer" className='text-white mx-auto mt-8 shadoww text-[20px] neue-bold'>Mentorship session Tickets </a>
+     </div>
      </div>
      </section>
  

@@ -16,15 +16,12 @@ const Announcement = () => {
 
                  </span>
             </h2>
+       
+          
             <h2 className='mt-10 text-[20px] neue-bold border-b-[2px] w-[280px]'>
-            Early - Bird Session
+            Time
             </h2>
-            <p className='neue-bold mt-5 track'>9am - 12pm</p>
-
-            <h2 className='mt-10 text-[20px] neue-bold border-b-[2px] w-[280px]'>
-            Noon Session
-            </h2>
-            <p className='neue-bold mt-5 track '>1pm - 2pm</p>
+            <p className='neue-bold mt-5 track '>10am - 1pm</p>
             {/* theme */}
             <h2 className='mt-10 text-[28px] neue-bold border-b-[2px] w-[280px]'>
             Theme

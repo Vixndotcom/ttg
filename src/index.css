@@ -132,7 +132,7 @@ background: linear-gradient(163.33deg, #02013A 10.22%, #0603A0 88.48%);
 margin: 16px auto;
 height: 64px;
 width: 256px;
-background: linear-gradient(33.33deg, #025e1c 19.83%, #0de405 161.18%);
+background: linear-gradient(33.33deg, #025e1c 19.83%, #8b978a 161.18%);
 /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 border-radius: 10px;
 
@@ -150,6 +150,15 @@ background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,rgb(202, 182, 
 border-radius: 10px;
   box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
   }
+.ticket-note{
+  background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,rgb(202, 182, 102) 51%,#dc8 100%);
+  width: 80vw;
+  height: 100px;
+  border-radius: 12px;
+
+}
+
+
 
   .reg{
     /* Rectangle 5 */
