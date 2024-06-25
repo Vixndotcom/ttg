@@ -11,11 +11,11 @@ const Hero = () => {
      <div className='shadow mt-4'>SHAPE YOUR</div>
      <div className='shadow mt-4'>FUTURE</div>
     </h1>
-    <button className='button text-[20px] text-white text-center mx-auto neue-regular flex flex-row '>
-        <Link to ='/register' className='neue-regular mx-12 text-center flex flex-row cursor-pointer '>Get Started  
-        <img src={arrow} alt="" className=' w-[16%] mx-4 mb-3'/>
+    <button className='button text-[20px] text-white text-center mx-auto neue-regular flex flex-row  '>
+        <Link to ='/register' className='neue-regular text-center mx-8 flex flex-row cursor-pointer '>Register Today!
+        <img src={arrow} alt="" className=' w-[12%] mx-4 mb-3'/>
         </Link>
-       
+        
     </button>
     </section>
   )
