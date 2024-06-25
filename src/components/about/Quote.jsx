@@ -6,7 +6,7 @@ const Quote = () => {
     <section className={`${styles.flexCenter}   mb-20 `}>
     <div className='text-center boxxx  mt-4'>
         <div >
-         <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold underborder w-[200px] p-4'>In her words</h2>
+         <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold underborder w-[200px] p-4'>IN HER WORDS</h2>
         </div> 
         <h2 className=' neue-bold text-[24px]   p-4 '>
       

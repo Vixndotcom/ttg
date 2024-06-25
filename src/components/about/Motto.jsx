@@ -28,8 +28,15 @@ const Motto = () => {
 <img src={table} alt="" className='rounded-[4px]' />
 </div>
 
-<h2 className='mt-10 mb-10 mx-auto text-[20px]  text-center neue-bold text-black font-bold'>OUR MOTTO: Success es imprescindible!</h2>
-
+<div className={`${styles.flexCenter} text-center boxxx  mt-4 flex flex-col mx-auto`}>
+        <div >
+         <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold underborder w-[200px] p-4'>OUR MOTTO</h2>
+        </div> 
+        <h2 className=' neue-bold text-[24px]   p-4 '>
+      
+        Success es imprescindible!
+        </h2>
+      </div>
 
         
       </div>
