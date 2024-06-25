@@ -15,7 +15,7 @@ const Register = () => {
  
  
    return (
-     <section id='register ' className={`${styles.paddingX} ${styles.flexCenter} mt-20 mb-20 p-4`}>
+     <section id='register ' className={`${styles.paddingX} ${styles.flexCenter}  mt-20 mb-20 p-4`}>
         <div className={`${styles.boxWidth}`}>
       <Announcement />
      
@@ -71,6 +71,7 @@ const Register = () => {
    <div className='mt-4 flex text-center mx-auto ticket-note  '>
      <a href="https://shows.ng/event/Mentorship-session-for-teenagers-and-undergraduates-234" target="_blank" rel="noopener noreferrer" className='text-white mx-auto mt-8 shadoww text-[20px] neue-bold'>Mentorship session Tickets </a>
      </div>
+    
      </div>
      </section>
  

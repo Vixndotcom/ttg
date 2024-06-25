@@ -12,10 +12,7 @@ const Event = () => {
       Latest Event:
        </h2>
 
-       {/* <p className='text-white '>
-        Our Motto: Success, is a must!
-
-       </p> */}
+      
       </div>
         </section>
   )

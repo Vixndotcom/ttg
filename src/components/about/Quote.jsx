@@ -1,13 +1,18 @@
 import React from 'react'
+import styles from '../../style'
 
 const Quote = () => {
   return (
-    <section className='w-[320px] mb-20'>
-      <h2 className='mt-10 mx-auto text-center neue-bold text-white font-bold text-[20px]'>In Her Words <br />
-      <span className='text-red-500 font-normal text-[28px] mt-5 borderline'>
-        " Success in your world without you is incomplete"</span>
-  
-  </h2>
+    <section className={`${styles.flexCenter}   mb-20 `}>
+    <div className='text-center boxxx  mt-4'>
+        <div >
+         <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold'>In her words</h2>
+        </div> 
+        <h2 className=' neue-bold text-[24px]   p-4 '>
+      
+   "Success in your world <br /> without you <br /> is incomplete "
+        </h2>
+      </div>
     </section>
   )
 }

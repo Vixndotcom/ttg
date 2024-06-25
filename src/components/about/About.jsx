@@ -55,7 +55,7 @@ You are about to be a change agent!
   </div>
     </div>
 
-   <div className={`${styles.flexCenter} bg-welcome`}>
+   <div className={`${styles.flexCenter} bg-white`}>
      <Quote />
    </div>
 
