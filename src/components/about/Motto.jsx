@@ -7,7 +7,8 @@ const Motto = () => {
     <section className={`${styles.flexStart}`}>
       <div className='neue-light md:w-[720px] xs:w-[470px] p-4 track'>
         <p className='mb-10' >
-        <span className='text-[36px] text-black neue-bold '>Titogems Company Limited </span> is a purpose driven company aimed at building mindsets for success and purpose fulfilment.
+        <span className='text-[36px] text-black neue-bold '>Titogems Company Limited </span> is a purpose driven company aimed at
+         building mindsets for <span className='text-[20px] neue-bold text-green'>success and purpose </span>  fulfilment.
 
  </p>
 
@@ -16,9 +17,9 @@ const Motto = () => {
         </div>
 
 
-<p className='neue-light mt-10'>
-The company was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
- them uniquely different from others.
+<p className='neue-light mt-10'><span className='text-[28px] neue-bold text-green'>The company </span>
+ was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
+ them <span className='text-[20px] neue-bold text-green'>uniquely different </span>  from others.
 </p>
 <br />
 

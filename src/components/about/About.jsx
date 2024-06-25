@@ -30,13 +30,13 @@ function About ()  {
 
      <div className={`${styles.flexCenter}`}>
       <div className='neue-light md:w-[720px] xs:w-[470px] p-4 track'>
-     <p className='mt-4'>From recognition awards to parties that are already unrelentingly in the business of educating and developing talents, 
+     <p className='mt-4'><span className='text-[28px] neue-bold text-green'>From recognition awards</span>  to parties that are already unrelentingly in the business of educating and developing talents, 
       to impacting transformative nuggets, </p>
-<p className='mt-4'>
-This is a vision that is drawn out of a dogged determination to reverse the trend of aimless drifting which is
+<p className='mt-4'><span className='text-[28px] neue-bold text-green'>This is a vision </span>
+that is drawn out of a dogged determination to reverse the trend of aimless drifting which is
  the order of the day in today's world.
 
-You are about to be a change agent!
+You are about to be a <span className='text-[20px] neue-bold text-green'>change agent!</span>
 </p>
      </div>
      </div>
@@ -46,8 +46,8 @@ You are about to be a change agent!
 
 
     <div className={`${styles.flexStart} `}>
-  <div className={`${styles.boxWidth}`}>
-    <h2 className='text-black mt-10 mb-4 text-[28px] p-2 text-center neue-bold'>
+  <div className={`${styles.boxWidth} mt-5`}>
+    <h2 className='text-black mt-10 mb-5 text-[28px] p-2 text-center neue-bold underborder w-[200px] '>
         Our Team
         </h2> 
 

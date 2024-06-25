@@ -312,6 +312,17 @@ border-radius: 12px;
 
 
 }
+.text-green{
+color: #03015c;
+}
+.underborder{
+  border-bottom: 1px solid #111;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 .boxx
 {
 

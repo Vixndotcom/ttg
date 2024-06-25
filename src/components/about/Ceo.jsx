@@ -12,14 +12,14 @@ is a Nigerian certified management consultant with several years of experience a
 
 <div className='mt-4 text-center flex flex-col '>
   <img src={ceo} alt="mrs-tolu" className='rounded-[4px]' />
-  <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold'>Mrs Tolulope Abolade Bello</h2>
-  <p>CEO Titogems</p>
+  <h2 className='mt-4 mx-auto text-center text[20px] neue-bold text-black font-bold'>Mrs Tolulope Abolade Bello</h2>
+  <p className='font-medium neue-regular text-green mt-2'>CEO Titogems</p>
 </div>
 
 <p className='mt-10 mb-4'>
-She has been on speaking platforms as a guest for insightful teachings on motivational topics.
+<span className='text-[28px] neue-bold text-green'>She has been</span> on speaking platforms as a guest for <span className='text-[20px] neue-bold text-green'>insightful teachings </span> on motivational topics.
 
-She is also a self motivated coach with a passion to grooming others to being the best version of themselves.</p>
+She is also a self motivated coach with a <span className='text-[20px] neue-bold text-green'>passion to grooming </span> others to being the best version of themselves.</p>
 
 
         <div>
