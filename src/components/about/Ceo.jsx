@@ -25,7 +25,7 @@ is a Nigerian certified management consultant with several years of experience a
 <div className='neue-light md:w-[720px] xs:w-[470px] p-8 pbox track'>
 <p className='mt-1'>
 <span className='text-[28px] neue-bold text-green'>She has been</span> on speaking platforms as a guest for 
-<span className='text-[20px] neue-bold text-green'>insightful teachings </span> on motivational topics.
+<span className='text-[20px] neue-bold text-green'> insightful teachings </span> on motivational topics.
 
 She is also a self motivated coach with a passion to grooming others to being the best version of themselves.
 </p>
