@@ -28,11 +28,10 @@ function About ()  {
      </div>
 
 
-     <div className={`${styles.flexCenter}`}>
-      <div className='neue-light md:w-[720px] xs:w-[470px] p-4 track'>
-     <p className='mt-4'><span className='text-[28px] neue-bold text-green'>From recognition awards</span>  to parties that are already unrelentingly in the business of educating and developing talents, 
-      to impacting transformative nuggets, </p>
-<p className='mt-4'><span className='text-[28px] neue-bold text-green'>This is a vision </span>
+     <div className={`${styles.flexCenter} mb-10 mt-5`}>
+      <div className='neue-light md:w-[720px] xs:w-[470px] p-8 pbox track'>
+     <p className='neue-light  text-center w-[470px]'> </p>
+<p className='mt-1'><span className='text-[28px] neue-bold text-green'>This is a vision </span>
 that is drawn out of a dogged determination to reverse the trend of aimless drifting which is
  the order of the day in today's world.
 

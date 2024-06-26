@@ -16,12 +16,17 @@ const Motto = () => {
           <img src={group} alt="" className='rounded-[4px]' />
         </div>
 
-
-<p className='neue-light mt-10'><span className='text-[28px] neue-bold text-green'>The company </span>
+        
+{/* new div */}
+        <div className={`${styles.flexCenter} mb-10 mt-5`}>
+<div className='neue-light md:w-[720px] xs:w-[470px] p-8 pbox track'>
+<p className='mt-1'><span className='text-[28px] neue-bold text-green'>The company </span>
  was birthed out of the need to groom young minds and adults alike in discovering who they really are and what makes
  them <span className='text-[20px] neue-bold text-green'>uniquely different </span>  from others.
 </p>
-<br />
+</div>
+</div>
+
 
 
 <div className={`${styles.flexCenter} mt-5`}>
