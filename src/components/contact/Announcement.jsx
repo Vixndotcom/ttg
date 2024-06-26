@@ -32,7 +32,7 @@ const Announcement = () => {
             The registration fee is <span className='mt-2 neue-bold text-[28px] text-red-700 font-bold'> 5,000 Naira Only</span>
             </h2>
             <p className='neue-bold text-[20px] track mt-10'>
-                You have a purpose that makes you uniquely different and outstanding in all that you do
+                You have a purpose, that which makes you uniquely different and outstanding in all that you do
             </p>
             <p className='neue-bold  text-[20px] track mt-5'>
                 What are you waiting for! it's time to take the bull by the horn in discovering who you
