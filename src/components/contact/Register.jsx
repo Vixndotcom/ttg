@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import styles from '../../style'
-import { cancel,  open } from '../../assets';
+import { cancel,  open, poster } from '../../assets';
 import { Link } from 'react-router-dom';
 import Announcement from './Announcement';
-
+import Event from './Event';
+poster
 
 const Register = () => {
   const [showForm, setShowForm] = useState(false);
@@ -15,7 +16,19 @@ const Register = () => {
  
  
    return (
-     <section id='register ' className={`${styles.paddingX} ${styles.flexCenter}  mt-20 mb-20 p-4`}>
+     <section id='register ' >
+      {/* event poster */}
+
+      <div className='bg-welcome'>
+    <Event />
+      <div className='mb-10 p-8'>
+        <img src={poster} alt="" className='md:w-[80%] mx-auto' />
+      </div>
+      </div>
+
+
+      {/* event poster */}
+      <div className={`${styles.paddingX} ${styles.flexCenter} flex-col mt-10 mb-20 p-4`}>
         <div className={`${styles.boxWidth}`}>
       <Announcement />
      
@@ -72,6 +85,7 @@ const Register = () => {
      <a href="https://shows.ng/event/Mentorship-session-for-teenagers-and-undergraduates-234" target="_blank" rel="noopener noreferrer" className='text-white mx-auto mt-8 shadoww text-[20px] neue-bold'>Mentorship session Tickets </a>
      </div>
     
+     </div>
      </div>
      </section>
  

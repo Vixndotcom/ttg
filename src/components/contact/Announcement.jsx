@@ -4,11 +4,11 @@ import Event from './Event'
 
 const Announcement = () => {
   return (
-    <section className='md:w-[720px] xs:w-[470px]'>
-      <Event />
-      <div className='mb-10'>
-        <img src={poster} alt="" />
-      </div>
+    <section className='md:w-[800px] xs:w-[470px] '>
+
+  
+
+  
         <div className=''>
             <h2 className='neue-bold text-[20px]'>
                 <span className='neue-bold text-[40px]'>A </span> mind blowing  session for teenagers and undergraduates coming up on the <br />
@@ -41,6 +41,7 @@ const Announcement = () => {
             </p>
 
         </div>
+  
     </section>
   )
 }
