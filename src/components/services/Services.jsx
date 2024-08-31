@@ -14,7 +14,7 @@ import Slist from './Slist'
 function Services () {
   return (
     <div className='w-full overflow-hidden '>
-      <div className={`${styles.flexStart} bg-red h-[480px]`}>
+      <div className={`${styles.flexStart} bg-whitee h-[480px]`}>
        <div className={`${styles.boxWidth} bg-doing`}>
         <Hed />
        </div>
