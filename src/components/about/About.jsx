@@ -11,8 +11,8 @@ import Table from './Table'
 function About ()  {
   return (
     <div className=' w-full overflow-hidden'>
-    <div className={`${styles.flexStart} bg-about`}>
-  <div className={`${styles.boxWidth} md:w-[720px] xs:w-[470px] `}>
+    <div className={`${styles.flexStart} bg-whitee h-[600px]`}>
+  <div className={`${styles.boxWidth} bg-about `}>
     <AboutHead />
   </div>
     </div>
