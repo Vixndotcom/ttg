@@ -18,7 +18,7 @@ function About ()  {
     </div>
 
 
-    <div className={`${styles.flexStart} `}>
+    <div className={`${styles.flexStart} mt-10 `}>
   <div className={`${styles.boxWidth} md:w-[720px] xs:w-[470px]  `}>
     <Motto />
   </div>
@@ -64,7 +64,8 @@ function About ()  {
    <div className={`${styles.flexCenter} bg-white`}>
      <Quote />
    </div>
-
+   
+ 
     
     </div>
     

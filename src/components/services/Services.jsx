@@ -13,7 +13,7 @@ function Services () {
   return (
     <div className='w-full overflow-hidden '>
       <div className={`${styles.flexStart} bg-service`}>
-       <div className={`${styles.boxWidth}`}>
+       <div className={`${styles.boxWidth} bg-doing`}>
         <Hed />
        </div>
       </div>
