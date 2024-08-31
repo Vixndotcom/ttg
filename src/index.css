@@ -87,7 +87,7 @@ body{
     background-repeat: no-repeat;
     height: 480px;
   
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); */
   }
   .bg-doing{
     background-image: url(assets//doing.jpeg);

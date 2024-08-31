@@ -12,7 +12,7 @@ function About ()  {
   return (
     <div className=' w-full overflow-hidden'>
     <div className={`${styles.flexStart} bg-whitee h-[600px]`}>
-  <div className={`${styles.boxWidth} bg-about `}>
+  <div className={`${styles.boxWidth} bg-about mt-10 `}>
     <AboutHead />
   </div>
     </div>
