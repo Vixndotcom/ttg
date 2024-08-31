@@ -18,7 +18,7 @@ function Services () {
        </div>
       </div>
         
-      < div className={` ${styles.flexCenter} mx-auto  mt-10`}>
+      < div className={` ${styles.flexCenter} mx-auto  mt-20`}>
       
       <div className={`${styles.boxWidth}  `}>
 

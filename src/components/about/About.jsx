@@ -18,7 +18,7 @@ function About ()  {
     </div>
 
 
-    <div className={`${styles.flexStart} mt-10 `}>
+    <div className={`${styles.flexStart} mt-20 `}>
   <div className={`${styles.boxWidth} md:w-[720px] xs:w-[470px]  `}>
     <Motto />
   </div>
