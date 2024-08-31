@@ -4,10 +4,10 @@ import { group, table } from '../../assets'
 
 const Motto = () => {
   return (
-    <section className={`${styles.flexStart}`}>
+    <section className=''>
       <div className='neue-light md:w-[720px] xs:w-[470px] p-4 track'>
-        <p className='mb-10' >
-        <span className='text-[36px] text-black neue-bold '>Titogems Company Limited </span> is a purpose driven company aimed at
+        <p className='mb-10 md:w-[720px] xs:w-[470px] ' >
+        <span className='text-[36px] text-black neue-bold '>Titogems <br /> Company Limited </span> is a purpose driven company aimed at
          building mindsets for <span className='text-[20px] neue-bold text-green'>success and purpose </span>  fulfilment.
 
  </p>
@@ -29,19 +29,7 @@ const Motto = () => {
 
 
 
-<div className={`${styles.flexCenter} mt-5`}>
-<img src={table} alt="" className='rounded-[4px]' />
-</div>
 
-<div className={`${styles.flexCenter} text-center boxxx  mt-4 flex flex-col mx-auto`}>
-        <div >
-         <h2 className='mt-4 mx-auto text-center neue-bold text-black font-bold underborder w-[200px] p-4'>OUR MOTTO</h2>
-        </div> 
-        <h2 className=' neue-bold text-[24px]   p-4 '>
-      
-        Success es imprescindible!
-        </h2>
-      </div>
 
         
       </div>

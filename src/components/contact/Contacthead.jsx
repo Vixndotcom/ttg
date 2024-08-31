@@ -21,6 +21,7 @@ const Contacthead = () => {
       <h2 className='text-[28px] neue-bold text-white'>
         Phone Number
     </h2>
+   
     <button className='neue-ligh mt-5 text-white bg-white w-[360px] h-[64px] flex flex-row'>
     <p className='neue-bold w-[290px] text-center mx-3  mt-5 text-[16px] '>+234-08028484717 </p>
     <span className='w-[70px]'>
@@ -31,6 +32,7 @@ const Contacthead = () => {
     </a>
     </span>
     </button>
+
     <h2 className='text-[28px] neue-bold text-white mt-10'>
         Email Address
     </h2>

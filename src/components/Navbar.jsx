@@ -22,7 +22,7 @@ export const Navbar = () => {
         <div className='w-full flex py-4 justify-between items-center navbar  bg-transparent '>
     
 {/* logo */}
-<div className='flex flex-row logo   '>
+<div className='flex flex-row logo  z-[999] '>
 <img src={icon} alt="" className='w-[64px] h-[64px] '/>
 <h4 className='text-[28px] green mt-3 neue-bold font-bold '>
   TitoGems
@@ -57,13 +57,13 @@ export const Navbar = () => {
 <img src={navList ? close : menu} alt=""  className='w-[112px] h-[56px]   cursor-pointer  z-[99]'
 onClick={() => setNavList((prev) => !prev)}/>
 
-<div className={`${navList ? 'flex' : 'hidden'} p-2 bg-welcome
+<div className={`${navList ? 'flex' : 'hidden'} p-2 bg-white
   right-0   w-full h-screen top-0 sidebar absolute`}>
 
 <div className='mt-24'>
 <ul className='  list-none justify-end items-center flex-1 mt-24  '>
  {nav.map((list, index) => (
-  <li key={list.path} className={` font-medium neue-bold cursor-pointer border p-6 mt-2 bg-white  text-[32px]
+  <li key={list.path} className={` font-medium neue-bold cursor-pointer border p-6 mt-2 bg-footer text-white  text-[32px]
   ${index === nav.length - 1 ? 'mr-0' : 'mb-4'}`} 
   onClick={handleSelection}>
 
@@ -74,7 +74,7 @@ onClick={() => setNavList((prev) => !prev)}/>
   </li>
  ))}
  
-   <p className='  outlinee text-[20px] neue-bold font-bold green mt-10 p-2'>TitoGems Company Ltd</p> 
+   <p className='  outlinee text-[20px] neue-bold font-bold text-black mt-10 p-2'>&copy; 2024</p> 
 
   <div className='flex flex-row text-center'>
  

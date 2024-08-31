@@ -8,7 +8,7 @@ function Contact () {
     return (
       <div className='w-full overflow-hidden '>
         <div className={`${styles.flexStart}  bg-contact`}>
-         <div className={`${styles.boxWidth}`}>
+         <div className={`${styles.boxWidth} mx-auto`}>
           <Contacthead />
          </div>
         </div>

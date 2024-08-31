@@ -1,6 +1,7 @@
 {
   "name": "tito-gems",
   "private": true,
+  "homepage": "http://www.thegemscompany.com.ng/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
