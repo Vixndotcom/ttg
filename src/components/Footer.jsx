@@ -44,7 +44,13 @@ const Footer = () => {
 2024 Titogems. All Rights Reserved.
 </p>
 </div>
-
+<div className={`${styles.flexCenter}`}>
+<div className='text-white flex flex-row tracking-wide mb-5 mx-auto'>
+       <p className='neue-thin text-[16px] mt-5'>Developed by </p>
+        <a href="https://read.cv/Vixndotcom" target="_blank" className='mt-5 mx-2 cursor-pointer'
+        rel="noopener noreferrer"> vixndotcom</a>
+        </div>
+        </div>
 
         {/* links */}
     </div>
