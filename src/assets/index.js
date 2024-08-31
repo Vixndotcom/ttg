@@ -38,9 +38,16 @@ import top from './TOP-BUTTON.png'
 import table from './table.jpg'
 import poster from './poster.png'
 import contact from './contact.jpg'
-
+import one from './1.png'
+import two from './2.png'
+import three from './3.png'
+import four from './4.png'
 
 export{
+    one,
+    two,
+    three,
+    four,
     top,
     poster,
     open,

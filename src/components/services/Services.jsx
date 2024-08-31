@@ -8,14 +8,22 @@ import Seminars from './Seminars'
 import Workshops from './Workshops'
 import Outreach from './Outreach'
 import Global from './Global'
+import List from './List'
+import Slist from './Slist'
 
 function Services () {
   return (
     <div className='w-full overflow-hidden '>
-      <div className={`${styles.flexStart} bg-service`}>
+      <div className={`${styles.flexStart} bg-red h-[480px]`}>
        <div className={`${styles.boxWidth} bg-doing`}>
         <Hed />
        </div>
+      </div>
+      
+      <div className={`${styles.flexCenter} mt-5`}>
+        <div className={`${styles.boxWidth}`}>
+      <List />
+        </div>
       </div>
         
       < div className={` ${styles.flexCenter} mx-auto  mt-20`}>
@@ -41,6 +49,13 @@ function Services () {
         <Conferences />
     </div>
     </div>
+
+    <div className={`${styles.flexCenter} mt-20 mb-20`}>
+        <div className={`${styles.boxWidth}`}>
+      <Slist />
+        </div>
+      </div>
+
 
       < div className={` ${styles.flexCenter}  mt-5`}>
       
